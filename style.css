@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Karla;
+}
+
+/* GENERAL STYLING */
+.container {
+  margin: 1rem auto;
+  max-width: 80vw;
+  height: 94vh;
+  display: grid;
+  place-content: center;
+}
+
+.cards {
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.03);
+}
+
+.card {
+  padding: 2rem 1rem;
+}
+
+h2,
+h3 {
+  margin: 1rem 0;
+}
+
+h1 + span {
+  font-size: 1rem;
+}
+
+.first {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.last {
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+.first h2 {
+  margin-top: 0;
+}
+
+.second h3 {
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  line-height: 1.3rem;
+}
+/* UTILITY CLASSES */
+
+.bg-white {
+  background: #fff;
+}
+
+.teal-500 {
+  color: hsl(179, 62%, 43%);
+}
+.bg-teal-500 {
+  background: hsl(179, 62%, 43%);
+}
+
+.lgt-green {
+  color: #4abebd;
+}
+.bg-lgt-green {
+  background: #4abebd;
+}
+
+.ltt-green {
+  color: #95e4e8;
+}
+.bg-ltt-green {
+  background: #95e4e8;
+}
+
+.green-100 {
+  color: hsl(71, 73%, 54%);
+}
+.bg-green-100 {
+  background: hsl(71, 73%, 54%);
+}
+
+.teal-100 {
+  color: hsl(204, 43%, 93%);
+}
+.bg-teal-100 {
+  background: hsl(204, 43%, 93%);
+}
+
+.gray-500 {
+  color: hsl(218, 22%, 67%);
+}
+
+.btn {
+  border: none;
+  padding: 1rem;
+  width: 99%;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.medium {
+  font-size: 1.02rem;
+}
+
+/* TABLET */
+@media (min-width: 783px) {
+  .container {
+    max-width: 90vw;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .first {
+    grid-column: span 3;
+    padding: 2rem 4rem;
+  }
+  .second {
+    padding: 2rem 4rem;
+    border-radius: 0 0 0 0.5rem;
+  }
+  .last {
+    padding: 2rem 4rem;
+    border-radius: 0 0 0.5rem 0;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 50vw;
+  }
+}
+
+/* FOOTER */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
