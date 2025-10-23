@@ -25,8 +25,8 @@ Users should be able to:
 ![](screenshot.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/chinatukachinonsofaithful/single-price-grid-component)
+- Live Site URL: (https://chinatukachinonsofaithful.github.io/single-price-grid-component/)
 
 ## My process
 
@@ -66,6 +66,6 @@ But note this, while writing utility classes, use words that depites it's functi
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [chinatukachinonsofaithful](https://github.com/chinatukachinonsofaithful)
+- Frontend Mentor - [@chinatukachinonsofaithfu](https://www.frontendmentor.io/profile/chinatukachinonsofaithful)
+- Twitter - [@Chinatukachino](https://x.com/Chinatukachino)
